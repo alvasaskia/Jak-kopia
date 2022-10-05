@@ -1,9 +1,14 @@
 /* global-css */
 body {
     font-family: Montserrat, sans-serif;
- background-color: #fff;
- color: #414141;
- line-height: 1.5;
+    background-color: #fff;
+    color: #414141;
+    line-height: 1.5;
+}
+
+header {
+    background-image: url(https://storage.googleapis.com/jak-se/media/images/startsida_host_v2.97487e7b.fill-2000x800.jpg);
+    color: #fff;
 }
 
 /* div {
@@ -25,15 +30,20 @@ h2 {
 
 button {
     background-color: #4e1977;
-    /* color: #7726b6; */
     color: #fff;
     padding: 10px;
     border-radius: 7px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #7726b6;
 }
 
 #vad-gor-en-bank-god {
     font-size: 1.25rem;
-    /* width: 700px; */
+
 
 
 }
@@ -78,7 +88,7 @@ h3 {
 }
 
 .content-container-2 {
-    /* max-width: 700px; */
+    max-width: 700px;
     margin: auto;
 }
 
@@ -94,9 +104,9 @@ h3 {
 }
 
 .img-text-card {
-/* background-color: #0e6946; */
-width: 250px;
-margin: 20px;
+    /* background-color: #0e6946; */
+    width: 250px;
+    margin: 20px;
 }
 
 a:hover {
@@ -107,7 +117,7 @@ a:hover {
     color: #3575d4;
     font-size: 16px;
     font-weight: bolder;
- 
+
 }
 
 @media screen and (max-width: 750px) {
@@ -132,5 +142,10 @@ a:hover {
 
     .flex-1 {
         display: flex;
+
+    }
+
+    img {
+        padding: 1.5rem;
     }
 }
