@@ -1,0 +1,136 @@
+/* global-css */
+body {
+    font-family: Montserrat, sans-serif;
+ background-color: #fff;
+ color: #414141;
+ line-height: 1.5;
+}
+
+/* div {
+    border: solid 2px green;
+} */
+
+#ag-din-bank {
+    background-color: #f2f8f5;
+}
+
+h2 {
+    font-size: 2.625rem;
+    color: #0e6946;
+    font-weight: 900;
+
+}
+
+
+
+button {
+    background-color: #4e1977;
+    /* color: #7726b6; */
+    color: #fff;
+    padding: 10px;
+    border-radius: 7px;
+}
+
+#vad-gor-en-bank-god {
+    font-size: 1.25rem;
+    /* width: 700px; */
+
+
+}
+
+/* vad gör en bank god-css */
+
+
+.text-align-center {
+    text-align: center;
+    /* background-color: bisque; */
+}
+
+
+/* äg din bank-css */
+
+#ag-din-bank h2 {
+    text-align: center;
+    padding: 75px;
+}
+
+.img-text-button-container {
+    display: flex;
+}
+
+.img-text-button-container div {
+    margin: 20px;
+}
+
+
+.flex-1 {
+    flex: 1;
+}
+
+h3 {
+    font-size: 23px;
+    font-weight: 900;
+}
+
+.content-container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.content-container-2 {
+    /* max-width: 700px; */
+    margin: auto;
+}
+
+.fyra-pluppar {
+    display: flex;
+    /* background-color: palegoldenrod; */
+    justify-content: center;
+}
+
+.tva-pluppar {
+    display: flex;
+    /* background-color: darkblue; */
+}
+
+.img-text-card {
+/* background-color: #0e6946; */
+width: 250px;
+margin: 20px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.links {
+    color: #3575d4;
+    font-size: 16px;
+    font-weight: bolder;
+ 
+}
+
+@media screen and (max-width: 750px) {
+    .img-text-button-container {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .fyra-pluppar {
+        display: block;
+        /* background-color: blue; */
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    .tva-pluppar {
+        /* background-color: brown; */
+        display: block;
+    }
+
+    .flex-1 {
+        display: flex;
+    }
+}
